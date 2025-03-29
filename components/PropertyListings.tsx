@@ -30,6 +30,34 @@ const PropertyListings: React.FC = () => {
           data-instgrm-version="14"
         ></blockquote>
 
+{/* Third Instagram post */}
+<blockquote
+          className={`instagram-media ${styles.blockquote}`}
+          data-instgrm-permalink="https://www.instagram.com/reel/DGuy166thJL/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+        ></blockquote>
+
+{/* Fourth Instagram post */}
+<blockquote
+          className={`instagram-media ${styles.blockquote}`}
+          data-instgrm-permalink="https://www.instagram.com/reel/DHKAVectscC/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+        ></blockquote>
+
+{/* Fifth Instagram post */}
+<blockquote
+          className={`instagram-media ${styles.blockquote}`}
+          data-instgrm-permalink="https://www.instagram.com/reel/DHrIen_Nvle/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+        ></blockquote>
+
+{/* Sixth Instagram post */}
+<blockquote
+          className={`instagram-media ${styles.blockquote}`}
+          data-instgrm-permalink="https://www.instagram.com/reel/DHRau1ktBcn/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14"
+        ></blockquote>
+
         {/* Add more Instagram posts here as needed */}
       </div>
     </div>
