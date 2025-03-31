@@ -2,6 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 
+
 const ContactWrapper = styled.div`
   padding: 50px 20px;
   background: #fff;

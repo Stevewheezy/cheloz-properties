@@ -100,36 +100,16 @@ const HeroSection: React.FC = () => {
         modules={[EffectFade, Autoplay, Navigation]}
       >
         <SwiperSlide>
-          <Image
-            src="/images/hero/luxury_home_1.jpg"
-            alt="Luxury Home 1"
-            layout="fill"
-            objectFit="cover"
-          />
+        <Image src="/images/hero/luxury_home_1.jpg" alt="Luxury Home 1" fill style={{ objectFit: "cover" }} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/images/hero/luxury_home_2.jpg"
-            alt="Luxury Home 2"
-            layout="fill"
-            objectFit="cover"
-          />
+        <Image src="/images/hero/luxury_home_2.jpg" alt="Luxury Home 2" fill style={{ objectFit: "cover" }} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/images/hero/luxury_home_3.jpg"
-            alt="Luxury Home 3"
-            layout="fill"
-            objectFit="cover"
-          />
+        <Image src="/images/hero/luxury_home_3.jpg" alt="Luxury Home 3" fill style={{ objectFit: "cover" }} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            src="/images/hero/luxury_home_4.jpg"
-            alt="Luxury Home 4"
-            layout="fill"
-            objectFit="cover"
-          />
+        <Image src="/images/hero/luxury_home_4.jpg" alt="Luxury Home 4" fill style={{ objectFit: "cover" }} />
         </SwiperSlide>
       </Swiper>
       <div className="overlay"></div>
