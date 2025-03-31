@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Cheloz Properties",
     images: [
       {
-        url: "/images/hero/luxury_home_1.jpg", // Uses full URL now
+        url: "https://cheloz-properties.vercel.app/images/hero/luxury_home_1.jpg", // Uses full URL now
         width: 1200,
         height: 630,
         alt: "Luxury Home",
