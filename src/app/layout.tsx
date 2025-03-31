@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 // ✅ Set `metadataBase` to your live Vercel URL
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cheloz-properties.vercel.app"), // Replace with your domain when live
+  metadataBase: new URL("https://cheloz-properties.vercel.app"), // Replace with your real domain when live
   title: "Cheloz Properties | Buy & Rent Luxury Homes",
   description: "Find your dream home with Cheloz Properties. Explore luxury apartments, houses, and investment opportunities.",
   openGraph: {
