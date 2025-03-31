@@ -92,6 +92,7 @@ const HeroWrapper = styled.div`
 
 const HeroSection: React.FC = () => {
   return (
+    <section id="hero">
     <HeroWrapper>
       <Swiper
         effect="fade"
@@ -124,6 +125,7 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
     </HeroWrapper>
+    </section>
   );
 };
 

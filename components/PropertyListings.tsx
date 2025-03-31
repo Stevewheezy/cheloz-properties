@@ -12,6 +12,7 @@ const PropertyListings: React.FC = () => {
   }, []);
 
   return (
+    <section id="properties">
     <div className={styles.container}>
       <h2 className={styles.heading}>Property Listings</h2>
 
@@ -61,6 +62,7 @@ const PropertyListings: React.FC = () => {
         {/* Add more Instagram posts here as needed */}
       </div>
     </div>
+    </section>
   );
 };
 
