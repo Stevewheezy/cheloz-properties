@@ -1,10 +1,7 @@
-"use client"; 
-
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer"; // Import the Footer component
 import type { Metadata } from "next";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import "./globals.css";
-
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -12,6 +9,7 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
+// ✅ Metadata now works correctly in a Server Component
 export const metadata: Metadata = {
   metadataBase: new URL("https://cheloz-properties.vercel.app"),
   title: "Cheloz Properties | Buy & Rent Luxury Homes",
@@ -23,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Cheloz Properties",
     images: [
       {
-        url: "https://cheloz-properties.vercel.app/images/hero/luxury_home_1.jpg",
+        url: "https://cheloz-properties.vercel.app/images/hero/luxury_home_1.jpg", // ✅ Absolute URL
         width: 1200,
         height: 630,
         alt: "Luxury Home",
@@ -35,10 +33,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cheloz Properties | Buy & Rent Luxury Homes",
     description: "Find your dream home with Cheloz Properties. Explore luxury apartments, houses, and investment opportunities.",
-    images: ["/images/hero/luxury_home_1.jpg"],
+    images: ["https://cheloz-properties.vercel.app/images/hero/luxury_home_1.jpg"], // ✅ Fixed path
   },
 };
 
+// ✅ RootLayout is now a Server Component
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
