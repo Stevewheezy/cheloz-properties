@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizeCss: false, // ❌ Disabled to prevent build issues with Turbopack
-    appDir: true, // ✅ Ensure App Router compatibility
   },
   webpack: (config) => {
     config.resolve.alias = {
