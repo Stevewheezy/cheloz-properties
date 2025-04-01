@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
       <h2>Contact Us</h2>
       <div className="contact-container">
         <p className="contact-info">📍 Location: Lagos, Nigeria</p>
-        <p className="contact-info">📞 Phone: +234 816 948 1061</p>
+        <p className="contact-info">📞 Phone: +234 907 393 1047</p>
         <p className="contact-info">📧 Email: chelozproperties@gmail.com</p>
 
         <div className="cta-buttons">

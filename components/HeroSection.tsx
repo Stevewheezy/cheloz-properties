@@ -121,7 +121,7 @@ const HeroSection: React.FC = () => {
           <button onClick={() => window.open("https://wa.me/2348169481061", "_blank")}>
             Chat on WhatsApp
           </button>
-          <button onClick={() => window.open("tel:+2348169481061")}>Call Now</button>
+          <button onClick={() => window.open("tel:+2349073931047")}>Call Now</button>
         </div>
       </div>
     </HeroWrapper>
