@@ -5,7 +5,15 @@ const nextConfig: NextConfig = {
     styledComponents: true, // ✅ Enable styled-components SSR
   },
   experimental: {
-    optimizeCss: true, // ✅ Example of a valid experimental property
+    optimizeCss: false, // ❌ Disabled to prevent build issues with Turbopack
+    appDir: true, // ✅ Ensure App Router compatibility
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "react/jsx-runtime.js": require.resolve("react/jsx-runtime"),
+    };
+    return config;
   },
 };
 
